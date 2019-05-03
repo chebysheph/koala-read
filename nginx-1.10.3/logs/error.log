@@ -1,0 +1,14 @@
+2019/05/02 21:20:25 [emerg] 16496#100: unknown directive "../index" in D:\project\dupireact\koala-read\dist\nginx-1.10.3/conf/nginx.conf:45
+2019/05/02 21:21:13 [emerg] 1036#7924: unknown directive "../index" in D:\project\dupireact\koala-read\dist\nginx-1.10.3/conf/nginx.conf:45
+2019/05/02 21:30:52 [emerg] 13184#18188: unknown directive "../index" in D:\project\dupireact\koala-read\dist\nginx-1.10.3/conf/nginx.conf:45
+2019/05/02 21:33:53 [emerg] 13976#10444: unknown directive "../index" in D:\project\dupireact\koala-read\dist\nginx-1.10.3/conf/nginx.conf:45
+2019/05/02 21:35:21 [emerg] 5592#13656: unknown directive "../index" in D:\project\dupireact\koala-read\dist\nginx-1.10.3/conf/nginx.conf:45
+2019/05/02 21:38:25 [warn] 10908#14332: "user" is not supported, ignored in D:\project\dupireact\koala-read\dist\nginx-1.10.3/conf/nginx.conf:2
+2019/05/02 21:40:27 [warn] 2576#11860: "user" is not supported, ignored in D:\project\dupireact\koala-read\dist\nginx-1.10.3/conf/nginx.conf:2
+2019/05/02 21:40:27 [warn] 16776#12072: "user" is not supported, ignored in D:\project\dupireact\koala-read\dist\nginx-1.10.3/conf/nginx.conf:2
+2019/05/02 21:41:24 [warn] 2064#12348: "user" is not supported, ignored in D:\project\dupireact\koala-read\dist\nginx-1.10.3/conf/nginx.conf:2
+2019/05/02 21:41:24 [warn] 9676#8116: "user" is not supported, ignored in D:\project\dupireact\koala-read\dist\nginx-1.10.3/conf/nginx.conf:2
+2019/05/02 21:41:28 [error] 9676#10652: *3 CreateFile() "D:\project\dupireact\koala-read\dist\nginx-1.10.3/../audios/finishSong.mp3" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /audios/finishSong.mp3 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/05/02 21:41:28 [error] 9676#10652: *1 CreateFile() "D:\project\dupireact\koala-read\dist\nginx-1.10.3/../images/koala2.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /images/koala2.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/05/02 21:44:09 [error] 9676#10652: *5 CreateFile() "D:\project\dupireact\koala-read\dist\nginx-1.10.3/../audios/finishSong.mp3" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /audios/finishSong.mp3 HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2019/05/02 21:45:14 [error] 9676#10652: *7 CreateFile() "D:\project\dupireact\koala-read\dist\nginx-1.10.3/../audios/finishSong.mp3" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /audios/finishSong.mp3 HTTP/1.1", host: "localhost"
