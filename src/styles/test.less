@@ -1,0 +1,112 @@
+html,body,#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.kl-content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+.kl-content-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: transparent;
+  box-sizing: border-box;
+  > div {
+    float: left;
+    width: 25%;
+    height: 100%;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+.kl-content-body {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, .6);
+}
+.kl-content-bg1 {
+  background-image: url("../images/5.jpg");
+}
+.kl-content-bg2 {
+  background-image: url("../images/2.jpg");
+}
+.kl-content-bg3 {
+  background-image: url("../images/3.jpg");
+}
+.kl-content-bg4 {
+  background-image: url("../images/10.jpg");
+}
+.kl-content-body- {
+  width: 60%;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+}
+.kl-content-body-login {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+#root {
+  .kl-content-body-login-btn {
+    background: transparent;
+    &:hover {
+      background: transparent;
+    }
+    &:focus {
+      background: transparent;
+    }
+    &:active {
+      background: transparent;
+    }
+  }
+  .kl-content-body-login-btn-reading {
+    background: transparent;
+    cursor: not-allowed;
+    &:hover {
+      background: transparent;
+      cursor: not-allowed;
+      color: rgba(0, 0, 0, 0.65);
+      border-color: #d9d9d9;
+    }
+    &:focus {
+      background: transparent;
+      cursor: not-allowed;
+      color: rgba(0, 0, 0, 0.65);
+      border-color: #d9d9d9;
+    }
+    &:active {
+      background: transparent;
+      cursor: not-allowed;
+      color: rgba(0, 0, 0, 0.65);
+      border-color: #d9d9d9;
+    }
+  }
+}
+.kl-content-body-blog {
+  width: 100%;
+  height: calc(~'100% - 50px');
+  box-sizing: border-box;
+  padding: 10px;
+  > p {
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+  }
+}
